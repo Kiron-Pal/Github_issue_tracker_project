@@ -21,6 +21,7 @@ document.getElementById("sign-in-btn").addEventListener("click", () => {
         }, 1500);
 
         setTimeout(() => {
+            localStorage.setItem('loggedIn', 'true');
             window.location.href = "home.html";
         }, 2000);
 

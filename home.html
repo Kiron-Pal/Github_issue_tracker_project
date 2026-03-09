@@ -32,7 +32,6 @@
 
 
  
-    <link rel="stylesheet" href="tail.css">
     <link rel="stylesheet" href="style.css">
 
 
@@ -87,7 +86,7 @@
     
     <main>
        
-        <section class=" pt-3 md:pt-3rem mb-4">
+        <section class=" pt-3 md:pt-[clamp(2rem,5vw,2.75rem)] mb-4">
             <div class="my-container flex gap-4 p-6  shadow-sm flex-wrap ">
 
                 <button onclick="showFilterIssueBtn('all-btn'); filterIssues('all')" id="all-btn"
@@ -133,9 +132,9 @@
                     
                     <div class="flex gap-3 items-center">
                         <p class="font-semibold"><span
-                                class="w-3 h-3 rounded-full bg-green-500 inline-block"></span> Open</p>
+                                class="w-[12px] h-[12px] rounded-full bg-green-500 inline-block"></span> Open</p>
                         <p class="font-semibold"><span
-                                class="w-3 h-3 rounded-full bg-[#a855f7] inline-block"></span> Closed</p>
+                                class="w-[12px] h-[12px] rounded-full bg-[#a855f7] inline-block"></span> Closed</p>
                     </div>
 
                 </div>
@@ -176,7 +175,7 @@
     </main>
 
 
-    <script src=" ./javaScript/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

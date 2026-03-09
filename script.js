@@ -1,4 +1,8 @@
 
+if (localStorage.getItem('loggedIn') !== 'true') {
+    window.location.href = 'index.html';
+}
+
 const allIssuesContainer = document.getElementById("issue-all-card");
  
 const allIssueBtn = document.getElementById("all-btn");
