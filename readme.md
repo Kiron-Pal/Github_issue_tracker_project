@@ -24,3 +24,9 @@ But the **original object does not change**.
 `filter()` checks each value of an array and returns a **new array** that contains only the elements that match a specific condition.
 
 `forEach()` is used to loop through each element of an array and perform an action. It **does not return a new array**.
+
+## 4. What is an arrow function?
+
+It uses the `=>` syntax.
+
+Arrow functions can also return values **implicitly** without writing the `return` keyword.
