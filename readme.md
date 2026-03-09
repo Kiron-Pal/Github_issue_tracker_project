@@ -11,3 +11,8 @@
 `const` works similar to `let`. But we can not change the value.
 
 
+## 2. What is the spread operator (...)?
+
+The spread operator `...` is used to copy or break values from an object or array.  
+Using the spread operator we can create a new object and change its values.  
+But the **original object does not change**.
